@@ -1,0 +1,159 @@
+2023-05-30 17:16:33,029 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-05-30 17:16:33,098 INFO c.m.u.Log [main] user is going to click on sign in
+2023-05-30 17:16:36,948 INFO c.m.u.Log [main] Enter username and password
+2023-05-30 17:17:08,279 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-05-30 17:17:08,289 INFO c.m.u.Log [main] Login is success
+2023-05-30 17:17:08,290 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-05-30 18:16:15,149 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-05-30 18:16:15,247 INFO c.m.u.Log [main] user is going to click on sign in
+2023-05-30 18:16:18,109 INFO c.m.u.Log [main] Enter username and password
+2023-05-30 18:16:33,133 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-05-30 18:16:33,162 INFO c.m.u.Log [main] Login is success
+2023-05-30 18:16:33,163 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-05-30 18:18:35,270 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-05-30 18:18:35,354 INFO c.m.u.Log [main] user is going to click on sign in
+2023-05-30 18:18:38,018 INFO c.m.u.Log [main] Enter username and password
+2023-05-30 18:18:52,963 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-05-30 18:18:53,002 INFO c.m.u.Log [main] Login is success
+2023-05-30 18:18:53,003 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-05-30 18:31:19,324 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-05-30 18:31:19,569 INFO c.m.u.Log [main] user is going to click on sign in
+2023-05-30 18:31:22,102 INFO c.m.u.Log [main] Enter username and password
+2023-05-30 18:31:37,006 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-05-30 18:31:37,016 INFO c.m.u.Log [main] Login is success
+2023-05-30 18:31:37,017 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-05-30 18:31:50,480 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-05-30 18:31:50,532 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-05-30 18:31:57,609 INFO c.m.u.Log [main] User is going to enter email Id
+2023-05-30 18:32:07,503 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-05-30 18:32:21,982 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-05-30 18:32:22,379 INFO c.m.u.Log [main] Logo is verified
+2023-05-30 18:32:22,379 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-05-30 18:32:36,467 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-05-30 18:32:36,499 INFO c.m.u.Log [main] Title is verified
+2023-05-30 18:32:36,500 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 12:32:20,905 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 12:32:20,957 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 12:32:23,118 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 12:32:37,386 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 12:32:37,397 INFO c.m.u.Log [main] Login is success
+2023-06-07 12:32:37,397 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 12:59:27,734 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 12:59:27,909 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 12:59:30,217 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 12:59:44,916 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 12:59:44,937 INFO c.m.u.Log [main] Login is success
+2023-06-07 12:59:44,938 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 12:59:58,928 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 12:59:58,938 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:00:01,088 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:00:15,073 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:02:35,038 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:02:35,595 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:02:35,598 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:02:50,090 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 13:02:50,154 INFO c.m.u.Log [main] Title is verified
+2023-06-07 13:02:50,154 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 13:13:23,103 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-06-07 13:13:23,232 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-06-07 13:13:32,120 INFO c.m.u.Log [main] User is going to enter email Id
+2023-06-07 13:13:42,849 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-06-07 13:15:25,501 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-06-07 13:15:25,625 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-06-07 13:15:26,950 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-06-07 13:15:27,356 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-06-07 13:15:35,734 INFO c.m.u.Log [main] User is going to enter email Id
+2023-06-07 13:15:37,272 INFO c.m.u.Log [main] User is going to enter email Id
+2023-06-07 13:15:45,398 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-06-07 13:15:48,611 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-06-07 13:29:26,418 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:29:26,467 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:29:28,504 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:29:43,362 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:29:43,375 INFO c.m.u.Log [main] Login is success
+2023-06-07 13:29:43,376 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 13:29:59,465 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:29:59,468 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:30:02,153 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:30:16,264 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:30:37,478 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:30:37,629 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:30:37,629 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:30:53,177 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 13:30:53,201 INFO c.m.u.Log [main] Title is verified
+2023-06-07 13:30:53,202 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 13:33:38,091 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:33:38,268 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:33:40,880 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:33:55,976 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:33:55,998 INFO c.m.u.Log [main] Login is success
+2023-06-07 13:33:56,000 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 13:34:10,982 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:34:10,986 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:34:13,730 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:34:28,244 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:34:43,216 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:34:43,653 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:34:43,654 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:37:08,060 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:37:08,658 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:37:08,658 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:37:20,822 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 13:37:20,861 INFO c.m.u.Log [main] Title is verified
+2023-06-07 13:37:20,862 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 13:40:51,066 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:40:51,199 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:40:53,352 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:41:07,641 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:41:07,648 INFO c.m.u.Log [main] Login is success
+2023-06-07 13:41:07,649 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 13:41:24,859 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:41:24,863 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:41:27,547 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:41:41,656 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:41:57,320 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:41:57,565 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:41:57,566 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:42:11,675 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 13:42:11,700 INFO c.m.u.Log [main] Title is verified
+2023-06-07 13:42:11,700 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 13:47:32,605 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:47:32,821 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:47:35,933 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:47:51,260 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:47:51,265 INFO c.m.u.Log [main] Login is success
+2023-06-07 13:47:51,265 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 13:48:03,999 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 13:48:04,004 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 13:48:06,265 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 13:48:20,303 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 13:48:35,197 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-06-07 13:48:35,201 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-06-07 13:48:43,139 INFO c.m.u.Log [main] User is going to enter email Id
+2023-06-07 13:48:53,489 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-06-07 13:49:09,365 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 13:49:09,643 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 13:49:09,644 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 13:49:21,905 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 13:49:21,922 INFO c.m.u.Log [main] Title is verified
+2023-06-07 13:49:21,923 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
+2023-06-07 14:34:50,500 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 14:34:50,673 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 14:34:56,360 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 14:35:12,199 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 14:35:12,234 INFO c.m.u.Log [main] Login is success
+2023-06-07 14:35:12,247 INFO c.m.u.Log [main] =====================================Login test TEST END=========================================
+2023-06-07 14:35:31,724 INFO c.m.u.Log [main] =====================================Login test TEST START=========================================
+2023-06-07 14:35:31,733 INFO c.m.u.Log [main] user is going to click on sign in
+2023-06-07 14:35:35,037 INFO c.m.u.Log [main] Enter username and password
+2023-06-07 14:35:52,255 INFO c.m.u.Log [main] Verifying if user is able to login
+2023-06-07 14:36:24,749 INFO c.m.u.Log [main] =====================================Verify Account Creation test TEST START=========================================
+2023-06-07 14:36:24,779 INFO c.m.u.Log [main] User is going to click on SignIn link
+2023-06-07 14:36:32,860 INFO c.m.u.Log [main] User is going to enter email Id
+2023-06-07 14:36:43,838 INFO c.m.u.Log [main] =====================================Verify Account Creation Test TEST END=========================================
+2023-06-07 14:37:02,256 INFO c.m.u.Log [main] =====================================Verifying Logo TEST START=========================================
+2023-06-07 14:37:02,844 INFO c.m.u.Log [main] Logo is verified
+2023-06-07 14:37:02,844 INFO c.m.u.Log [main] =====================================Verifying Logo Test TEST END=========================================
+2023-06-07 14:37:17,850 INFO c.m.u.Log [main] =====================================Verify Title TEST START=========================================
+2023-06-07 14:37:17,884 INFO c.m.u.Log [main] Title is verified
+2023-06-07 14:37:17,885 INFO c.m.u.Log [main] =====================================Verify Title TEST END=========================================
