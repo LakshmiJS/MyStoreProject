@@ -1,153 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="9" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-07T14:34:04 IST" name="Suite" finished-at="2023-06-07T14:37:18 IST" duration-ms="193744">
+  <suite started-at="2023-06-14T23:51:44 IST" name="Default suite" finished-at="2023-06-14T23:53:23 IST" duration-ms="99191">
     <groups>
+      <group name="Regression">
+        <method signature="accountCreationPageTest.createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" name="createNewAccount" class="com.mystore.testCases.accountCreationPageTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-06-07T14:34:04 IST" name="Test" finished-at="2023-06-07T14:37:18 IST" duration-ms="193744">
-      <class name="com.mystore.testCases.loginPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:34:00 IST" name="beforeSuite" finished-at="2023-06-07T14:34:04 IST" duration-ms="4777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:34:05 IST" name="loadConfig" finished-at="2023-06-07T14:34:05 IST" duration-ms="5" status="PASS">
+    <test started-at="2023-06-14T23:51:44 IST" name="Default test" finished-at="2023-06-14T23:53:23 IST" duration-ms="99191">
+      <class name="com.mystore.testCases.accountCreationPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:51:43 IST" name="loadConfig" finished-at="2023-06-14T23:51:44 IST" duration-ms="1643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:34:11 IST" name="setup" finished-at="2023-06-07T14:34:50 IST" duration-ms="39138" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:51:45 IST" name="setup" finished-at="2023-06-14T23:52:02 IST" duration-ms="16725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:34:50 IST" name="loginToApplication" data-provider="Credentials" finished-at="2023-06-07T14:35:12 IST" duration-ms="21799" status="PASS">
+        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:02 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:52:20 IST" duration-ms="18213" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[lakshmi.hicet@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lakshmi@7]]>
+                <![CDATA[{Newsletter=Yes, =, Month=9, Email=lakshmi6@mailinator.com, Year=1990, FirstName=Lakshmi, Gender=Female, LastName=S, SetPassword=Lakshmi@7, OptinOffer=No, Day=7}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:35:12 IST" name="tearDown" finished-at="2023-06-07T14:35:16 IST" duration-ms="3791" status="PASS">
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:20 IST" name="tearDown" finished-at="2023-06-14T23:52:21 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:35:16 IST" name="setup" finished-at="2023-06-07T14:35:31 IST" duration-ms="15645" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:21 IST" name="setup" finished-at="2023-06-14T23:52:34 IST" duration-ms="12966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:35:31 IST" name="loginToApplication" data-provider="Credentials" finished-at="2023-06-07T14:35:52 IST" duration-ms="20579" status="FAIL">
+        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:34 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:52:50 IST" duration-ms="16596" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[lakshmi.cbe@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lakshmi@77]]>
+                <![CDATA[{Newsletter=No, =, Month=5, Email=Jasu6@mailinator.com, Year=2021, FirstName=Jaswanthika, Gender=female, LastName=S, SetPassword=Jasu@31, OptinOffer=Yes, Day=31}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://automationpractice.pl/index.php?controller=my-account] but found [http://automationpractice.pl/index.php?controller=authentication]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://automationpractice.pl/index.php?controller=my-account] but found [http://automationpractice.pl/index.php?controller=authentication]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at com.mystore.testCases.loginPageTest.loginToApplication(loginPageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.loginPageTest@175c2241]" started-at="2023-06-07T14:35:52 IST" name="tearDown" finished-at="2023-06-07T14:35:53 IST" duration-ms="858" status="PASS">
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:50 IST" name="tearDown" finished-at="2023-06-14T23:52:51 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testCases.loginPageTest -->
-      <class name="com.mystore.testCases.accountCreationPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@6c6cb480]" started-at="2023-06-07T14:35:53 IST" name="setup" finished-at="2023-06-07T14:36:24 IST" duration-ms="31521" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:51 IST" name="setup" finished-at="2023-06-14T23:53:06 IST" duration-ms="14767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@6c6cb480]" started-at="2023-06-07T14:36:24 IST" name="verifyAccountCreation" finished-at="2023-06-07T14:36:43 IST" duration-ms="19124" status="PASS">
+        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:06 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:53:22 IST" duration-ms="16723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Newsletter=no, =, Month=6, Email=Sathish6@mailinator.com, Year=1987, FirstName=Sathish, Gender=male, LastName=R, SetPassword=sathish@14, OptinOffer=no, Day=14}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAccountCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@6c6cb480]" started-at="2023-06-07T14:36:43 IST" name="tearDown" finished-at="2023-06-07T14:36:48 IST" duration-ms="4514" status="PASS">
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:22 IST" name="tearDown" finished-at="2023-06-14T23:53:23 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:23 IST" name="afterSuite" finished-at="2023-06-14T23:53:23 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- com.mystore.testCases.accountCreationPageTest -->
-      <class name="com.mystore.testCases.indexPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:36:48 IST" name="setup" finished-at="2023-06-07T14:37:02 IST" duration-ms="13864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:37:02 IST" name="verifyLogo" finished-at="2023-06-07T14:37:02 IST" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:37:02 IST" name="tearDown" finished-at="2023-06-07T14:37:04 IST" duration-ms="1344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:37:04 IST" name="setup" finished-at="2023-06-07T14:37:17 IST" duration-ms="13639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:37:17 IST" name="verifyTitle" finished-at="2023-06-07T14:37:17 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.indexPageTest@3c46e67a]" started-at="2023-06-07T14:37:17 IST" name="tearDown" finished-at="2023-06-07T14:37:18 IST" duration-ms="809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.testCases.indexPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

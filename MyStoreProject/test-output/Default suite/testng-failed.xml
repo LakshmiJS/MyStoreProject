@@ -7,9 +7,9 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyAccountCreation"/>
+          <include name="createNewAccount" invocation-numbers="0 1 2"/>
           <include name="loadConfig"/>
-          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- com.mystore.testCases.accountCreationPageTest -->
     </classes>

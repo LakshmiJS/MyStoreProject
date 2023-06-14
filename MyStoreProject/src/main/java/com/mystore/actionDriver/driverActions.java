@@ -23,6 +23,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.interactions.Actions;
 
 import com.mystore.actionInterface.ActionInterface;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -35,13 +36,12 @@ public class driverActions  extends baseClass {
 	{
 		//WebDriverWait wait = new WebDriverWait(driver,eleName);
 		try {
-			System.out.println("Click function");
+			Actions act=new Actions(driver);
+			
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60, 60));
-			//WebDriverWait wait = new WebDriverWait(driver,60,60);
-			//System.out.println("Wait initiated");
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(eleName));
-		System.out.println("Wait over");
-			element.click();
+		act.moveToElement(element).click().build().perform();
+			//element.click();
 		}
 		
 		catch(Exception e){
@@ -58,12 +58,8 @@ public class driverActions  extends baseClass {
 
 		public static void click(WebDriver driver, WebElement ele) throws InterruptedException {
 
-			//Actions act = new Actions(driver);
-
-			System.out.println("element name:"+ele);
-			System.out.println("in click method");
-			ele.click();
-			//act.moveToElement(ele).click().build().perform();
+		Actions act=new Actions(driver);
+			act.moveToElement(ele).click().build().perform();
 			Thread.sleep(1000);
 
 		}
@@ -173,7 +169,7 @@ public class driverActions  extends baseClass {
 		}
 
 		 
-		public boolean selectBySendkeys(String value,WebElement ele) {
+		public static boolean selectBySendkeys(String value,WebElement ele) {
 			boolean flag = false;
 			try {
 				ele.sendKeys(value);
@@ -205,7 +201,7 @@ public class driverActions  extends baseClass {
 		 * 
 		 */
 		 
-		public boolean selectByIndex(WebElement element, int index) {
+		public static boolean selectByIndex(WebElement element, int index) {
 			boolean flag = false;
 			try {
 				Select s = new Select(element);
@@ -236,10 +232,15 @@ public class driverActions  extends baseClass {
 		 */
 
 		 
-		public boolean selectByValue(WebElement element,String value) {
+		public static boolean selectByValue(WebElement element,String value) {
 			boolean flag = false;
 			try {
+				Actions act=new Actions(getDriver());
+				act.moveToElement(element).click().build().perform();
 				Select s = new Select(element);
+				//System.out.println(s);
+				//JavascriptExecutor executor = (JavascriptExecutor) driver;
+				//executor.executeScript("arguments[0].scrollIntoView(true);", element);
 				s.selectByValue(value);
 				flag = true;
 				return true;
@@ -268,7 +269,7 @@ public class driverActions  extends baseClass {
 		 */
 
 		 
-		public boolean selectByVisibleText(String visibletext, WebElement ele) {
+		public static boolean selectByVisibleText(String visibletext, WebElement ele) {
 			boolean flag = false;
 			try {
 				Select s = new Select(ele);
@@ -785,7 +786,7 @@ public class driverActions  extends baseClass {
 			driver.manage().timeouts().pageLoadTimeout(timeOut, TimeUnit.SECONDS);
 		}
 		 
-		public String screenShot(WebDriver driver, String filename) {
+		public static String screenShot(WebDriver driver, String filename) {
 			String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 			TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 			File source = takesScreenshot.getScreenshotAs(OutputType.FILE);

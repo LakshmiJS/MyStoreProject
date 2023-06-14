@@ -28,10 +28,7 @@ public loginPage clickOnSingIn() throws Exception
 {
 	//driverActions driverActions = new driverActions();
 	//driverActions.click(driver,signInBtn);
-	System.out.println("In Sign in method");
-	System.out.println("B4"+signInBtn);
 	driverActions.newClick(getDriver(),signInBtn);
-	System.out.println("After"+ signInBtn);
 	return new loginPage();
 }
 

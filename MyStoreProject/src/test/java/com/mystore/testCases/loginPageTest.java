@@ -48,5 +48,6 @@ public void loginToApplication(String uname, String pwd) throws Exception
 	Log.info("Login is success");
 	Log.endTestCase("Login test");
 }
+
 }
 

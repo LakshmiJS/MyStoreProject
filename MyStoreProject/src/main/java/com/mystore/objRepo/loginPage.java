@@ -42,11 +42,10 @@ public class loginPage extends baseClass {
 		Thread.sleep(2000);
 	    return new homePage();
 	}
-	public accountCreationPage createNewAccount(String email) throws Exception
+	public accountCreationPage createNewAccountPage(String email) throws Exception
 	{
 		driverActions.type(newAccountEmail, email);
 		driverActions.newClick(getDriver(), createAccountBtn);
-		Thread.sleep(7000);
 		return new accountCreationPage();
 	}
 	public forgotPasswordPage clickOnForgotPasswordLink() throws Exception
