@@ -1,81 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T23:51:44 IST" name="Default suite" finished-at="2023-06-14T23:53:23 IST" duration-ms="99191">
+  <suite started-at="2023-06-15T16:21:51 IST" name="CrossBrowser" finished-at="2023-06-15T16:25:09 IST" duration-ms="197653">
     <groups>
+      <group name="Sanity">
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@8458f04]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="indexPageTest.verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@48075da3]" name="verifyLogo" class="com.mystore.testCases.indexPageTest"/>
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@305ffe9e]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="indexPageTest.verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" name="verifyLogo" class="com.mystore.testCases.indexPageTest"/>
+      </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="accountCreationPageTest.createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" name="createNewAccount" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="accountCreationPageTest.createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@8458f04]" name="createNewAccount" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@8458f04]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="loginPageTest.loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.loginPageTest@3ba987b8]" name="loginToApplication" class="com.mystore.testCases.loginPageTest"/>
+        <method signature="accountCreationPageTest.createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@305ffe9e]" name="createNewAccount" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@305ffe9e]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@8458f04]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="indexPageTest.verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@48075da3]" name="verifyLogo" class="com.mystore.testCases.indexPageTest"/>
+        <method signature="indexPageTest.verifyTitle()[pri:0, instance:com.mystore.testCases.indexPageTest@48075da3]" name="verifyTitle" class="com.mystore.testCases.indexPageTest"/>
+        <method signature="loginPageTest.loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testCases.loginPageTest@3ba987b8]" name="loginToApplication" class="com.mystore.testCases.loginPageTest"/>
+        <method signature="accountCreationPageTest.verifyAccountCreation()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@305ffe9e]" name="verifyAccountCreation" class="com.mystore.testCases.accountCreationPageTest"/>
+        <method signature="indexPageTest.verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" name="verifyLogo" class="com.mystore.testCases.indexPageTest"/>
+        <method signature="indexPageTest.verifyTitle()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" name="verifyTitle" class="com.mystore.testCases.indexPageTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-06-14T23:51:44 IST" name="Default test" finished-at="2023-06-14T23:53:23 IST" duration-ms="99191">
-      <class name="com.mystore.testCases.accountCreationPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:51:43 IST" name="loadConfig" finished-at="2023-06-14T23:51:44 IST" duration-ms="1643" status="PASS">
+    <test started-at="2023-06-15T16:21:51 IST" name="IETest" finished-at="2023-06-15T16:25:09 IST" duration-ms="197653">
+      <class name="com.mystore.testCases.indexPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:21:50 IST" name="loadConfig" finished-at="2023-06-15T16:21:51 IST" duration-ms="1683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:51:45 IST" name="setup" finished-at="2023-06-14T23:52:02 IST" duration-ms="16725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:02 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:52:20 IST" duration-ms="18213" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:21:51 IST" name="setup" finished-at="2023-06-15T16:25:09 IST" duration-ms="197500" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Newsletter=Yes, =, Month=9, Email=lakshmi6@mailinator.com, Year=1990, FirstName=Lakshmi, Gender=Female, LastName=S, SetPassword=Lakshmi@7, OptinOffer=No, Day=7}]]>
+                <![CDATA[IE]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:20 IST" name="tearDown" finished-at="2023-06-14T23:52:21 IST" duration-ms="485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:21 IST" name="setup" finished-at="2023-06-14T23:52:34 IST" duration-ms="12966" status="PASS">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:34 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:52:50 IST" duration-ms="16596" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Newsletter=No, =, Month=5, Email=Jasu6@mailinator.com, Year=2021, FirstName=Jaswanthika, Gender=female, LastName=S, SetPassword=Jasu@31, OptinOffer=Yes, Day=31}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="verifyLogo" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:50 IST" name="tearDown" finished-at="2023-06-14T23:52:51 IST" duration-ms="379" status="PASS">
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="tearDown" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:52:51 IST" name="setup" finished-at="2023-06-14T23:53:06 IST" duration-ms="14767" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="setup" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewAccount(java.util.HashMap)[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:06 IST" name="createNewAccount" data-provider="newAcountDetailsData" finished-at="2023-06-14T23:53:22 IST" duration-ms="16723" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Newsletter=no, =, Month=6, Email=Sathish6@mailinator.com, Year=1987, FirstName=Sathish, Gender=male, LastName=R, SetPassword=sathish@14, OptinOffer=no, Day=14}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="verifyTitle" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:22 IST" name="tearDown" finished-at="2023-06-14T23:53:23 IST" duration-ms="429" status="PASS">
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="tearDown" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testCases.accountCreationPageTest@79e4c792]" started-at="2023-06-14T23:53:23 IST" name="afterSuite" finished-at="2023-06-14T23:53:23 IST" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testCases.indexPageTest@7ae0a9ec]" started-at="2023-06-15T16:25:09 IST" name="afterSuite" finished-at="2023-06-15T16:25:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.mystore.testCases.accountCreationPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mystore.testCases.indexPageTest -->
+    </test> <!-- IETest -->
+  </suite> <!-- CrossBrowser -->
 </testng-results>

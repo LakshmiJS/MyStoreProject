@@ -23,7 +23,6 @@ public class excelLibrary {
 	public excelLibrary() {
 		
 
-		this.path=path;
 		try {
 			fis = new FileInputStream(path);
 			workbook = new XSSFWorkbook(fis);
@@ -38,8 +37,6 @@ public class excelLibrary {
 
 	public excelLibrary(String path) {
 
-
-		this.path = path;
 		try {
 			fis = new FileInputStream(path);
 			workbook = new XSSFWorkbook(fis);

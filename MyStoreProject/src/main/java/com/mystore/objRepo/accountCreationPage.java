@@ -87,11 +87,11 @@ public class accountCreationPage  extends baseClass{
 		}
 		
 		
-		if(optinOffer.equalsIgnoreCase("yes"))
+		/**if(optinOffer.equalsIgnoreCase("yes"))
 		{
 			driverActions.newClick(getDriver(),splOffersChkbx );
 			System.out.println("Optin Option="+optinOffer);
-		}
+		}**/
 	}
 	public homePage validateRegistration() throws Exception {
 		driverActions.newClick(getDriver(),registerBtn);

@@ -8,13 +8,152 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">99,191</td><td></td><td></td></tr>
+<tr><th colspan="8">CrossBrowser</th></tr>
+<tr><td><a href="#t0">IETest</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">197,653</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.mystore.testCases.accountCreationPageTest</td><td><a href="#m0">createNewAccount</a></td><td rowspan="3">1686766986135</td><td rowspan="3">16723</td></tr><tr class="passedeven"><td><a href="#m1">createNewAccount</a></td></tr><tr class="passedeven"><td><a href="#m2">createNewAccount</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossBrowser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">IETest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.mystore.testCases.indexPageTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1686826311805</td><td rowspan="1">197500</td></tr><tr><th colspan="4">IETest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">com.mystore.testCases.indexPageTest</td><td><a href="#m1">afterSuite</a></td><td rowspan="1">1686826509380</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">setup</a></td><td rowspan="1">1686826509339</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">tearDown</a></td><td rowspan="2">1686826509324</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m4">tearDown</a></td></tr><tr><th colspan="4">IETest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.mystore.testCases.indexPageTest</td><td><a href="#m5">verifyLogo</a></td><td rowspan="1">1686826509315</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">verifyTitle</a></td><td rowspan="1">1686826509342</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.mystore.testCases.accountCreationPageTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Newsletter=no, =, Month=6, Email=Sathish6@mailinator.com, Year=1987, FirstName=Sathish, Gender=male, LastName=R, SetPassword=sathish@14, OptinOffer=no, Day=14}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.mystore.testCases.accountCreationPageTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Newsletter=Yes, =, Month=9, Email=lakshmi6@mailinator.com, Year=1990, FirstName=Lakshmi, Gender=Female, LastName=S, SetPassword=Lakshmi@7, OptinOffer=No, Day=7}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.mystore.testCases.accountCreationPageTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Newsletter=No, =, Month=5, Email=Jasu6@mailinator.com, Year=2021, FirstName=Jaswanthika, Gender=female, LastName=S, SetPassword=Jasu@31, OptinOffer=Yes, Day=31}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>IETest</h2><h3 id="m0">com.mystore.testCases.indexPageTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>IE</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+	at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.mystore.testCases.indexPageTest#afterSuite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.mystore.testCases.indexPageTest#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.mystore.testCases.indexPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.mystore.testCases.indexPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.mystore.testCases.indexPageTest#verifyLogo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+	at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.mystore.testCases.indexPageTest#verifyTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0, get {url=http://automationpractice.pl/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:11428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbb6cc6-1e43-46c6-8d15-75af9d1c9ef0
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at com.mystoe.base.baseClass.launchApp(baseClass.java:88)
+	at com.mystore.testCases.indexPageTest.setup(indexPageTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 29 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:11428 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

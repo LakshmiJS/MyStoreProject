@@ -32,7 +32,7 @@ public class baseClass{
 	public static Properties prop;
 	//public static WebDriver driver;
 	public static ThreadLocal<RemoteWebDriver> driver=new ThreadLocal<RemoteWebDriver>();
-	@BeforeSuite
+	@BeforeSuite(groups = { "Smoke", "Sanity", "Regression" })
 	public void loadConfig() throws FileNotFoundException, IOException
 	{
 		ExtentManager.setExtent();
@@ -66,10 +66,10 @@ public class baseClass{
 	}
 
 
-public static void launchApp() throws InterruptedException
+public static void launchApp(String browserName) throws InterruptedException
 {
 	
-	String browserName = prop.getProperty("browser");
+	//String browserName = prop.getProperty("browser");
 	System.out.println(browserName);
 	if(browserName.equalsIgnoreCase("Chrome"))
 	{
@@ -89,7 +89,7 @@ public static void launchApp() throws InterruptedException
 	getDriver().manage().window().maximize();
     Thread.sleep(2000);
 }
-@AfterTest
+@AfterSuite(groups = { "Smoke", "Sanity", "Regression" })
 public  void afterSuite()
 {
 	ExtentManager.endReport();

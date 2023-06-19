@@ -3,6 +3,7 @@ package com.mystore.testCases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mystoe.base.baseClass;
@@ -16,18 +17,19 @@ public class loginPageTest extends baseClass {
 	indexPage indexPage;
 	loginPage loginPage;
 	homePage homePage;
-	@BeforeMethod
-	public void setup() throws InterruptedException
+	@Parameters("browser")
+	@BeforeMethod(groups = {"Smoke","Sanity","Regression"})
+	public void setup(String browser) throws InterruptedException
 	{
-		launchApp();
+		launchApp(browser);
 	}
-	@AfterMethod
+	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown()
 	{
 		getDriver().quit();
 	}
-
-@Test(dataProvider="Credentials",dataProviderClass=dataProviders.class)
+	
+@Test(groups= {"Regression","Smoke"},dataProvider="Credentials",dataProviderClass=dataProviders.class)
 public void loginToApplication(String uname, String pwd) throws Exception
 {Log.startTestCase("Login test");
 	indexPage=new indexPage();
